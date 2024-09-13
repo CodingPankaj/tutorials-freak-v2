@@ -1,0 +1,282 @@
+@media only screen and (max-width:1310px) {
+    /* Header */
+    .header-mid{
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    .header-mid>nav {
+        flex-basis: 100%;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-grow: 1;
+        gap: 10px;
+    }
+
+    .menu>ul:first-child {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .hero-left {
+        flex-basis: 45%;
+    }
+}
+
+@media only screen and (max-width:1049px) {
+    .header-mid {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        flex-grow: 1;
+    }
+
+    .logo i {
+        font-size: 25px;
+        display: block;
+    }
+
+    .header-mid>nav {
+        display: none;
+    }
+
+    /* Hero */
+
+    .hero-left {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    /* Mid class Padding */
+    .mid {
+        padding: 60px 20px;
+    }
+
+    .heading-container {
+        gap: 5px;
+    }
+    
+    .heading-container>h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    /* .heading-container>p {
+        width: 80%;
+    } */
+
+    /* Header */
+    .header-mid{
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    /* Hero */
+
+    .hero-left>h1 {
+        margin-top: 5px;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+    }
+
+    .hero-left>p {
+        margin-top: 10px;
+    }
+
+    .hero-left>a {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    /* Why Us */
+    .why-mid {
+        flex-direction: column-reverse;
+    }
+
+    .why-left {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .why-right>.heading-container {
+        text-align: center;
+    }
+
+    .why-right>.heading-container>h2 {
+        width: 100%;
+    }
+
+    .why-right>.btn-container {
+        justify-content: center;
+    }
+
+    /* Explore Wide Range Category */
+
+    .categories-mid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .categories-left>.heading-container>p {
+        width: 100%;
+    }
+
+    /* Courses */
+
+    .courses-mid>.heading-container>p {
+        width: 100%;
+    }
+
+    .courses {
+        flex-basis: 40%;
+    }
+
+    /* Mission and Goals */
+
+    .goals-mid>.heading-container>p {
+        width: 100%;
+    }
+
+    .goals-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .goals-left {
+        flex-basis: 100%;
+    }
+
+    .goals-left>img {
+        margin: auto;
+        width: 70%;
+    }
+
+    /* Get Learning App */
+
+    .app-mid {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .app-left>.heading-container {
+        text-align: center;
+    }
+
+    .app-store {
+        justify-content: center;
+    }
+
+    .url>p {
+        text-align: center;
+    }
+
+    .url>form {
+        justify-content: center;
+    }
+
+    .app-right {
+        flex-basis: 100%;
+    }
+
+    .app-right>img:first-child {
+        width: 60%;
+    }
+
+    .app-right>img:last-child {
+        width: 40%;
+    }
+
+    /* Footer */
+    .footer-mid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-left, .footer-right {
+        align-items: center;
+    }
+
+    /* Login */
+    .login-popup {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 629px){
+    /* Hero */
+    .hero-mid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-left {
+        flex-basis: 100%;
+    }
+    .hero-left>h1 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 47px;
+    }
+
+    
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 575px) {
+    .mid {
+        padding: 40px 20px;
+    }
+
+    .heading-container>h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .heading-container>p {
+        /* width: 100%; */
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* Hero */
+
+    .hero-left>span {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+
+    .hero-left>p {
+        font-size: 18px;
+    }
+
+    .hero-left>a {
+        margin-top: 25px;
+        padding: 12px 32px;
+        font-size: 16px;
+    }
+
+    .value {
+        flex-basis: 100%;
+    }
+
+    /* Account */
+    .account-mid>.btn-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:464px) {
+    .url>form {
+        flex-direction: column;
+    }
+}
